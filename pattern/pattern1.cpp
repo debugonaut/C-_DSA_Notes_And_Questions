@@ -19,7 +19,6 @@ void nForest(int n)
 int main()
 {
     int x;
-    cout << "Enter the number of stars you want in the pattern\n";
     cin >> x;
     nForest(x);
 }
