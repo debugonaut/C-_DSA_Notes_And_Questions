@@ -4,7 +4,7 @@
 using namespace std;
 
 class Student{
-    public:
+    private:
     int roll_no, age;
     float cgpa;
     string name;

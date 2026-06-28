@@ -3,9 +3,19 @@
         "iostream": "cpp",
         "climits": "cpp"
     },
+    "editor.formatOnSave": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
     "files.autoReload": "always",
-    "editor.underline": false
+    "editor.underline": false,
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "clangd.path": "/usr/bin/clangd",
+    "[cpp]": {
+           "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "[c]": {
+           "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    }
     
 }
